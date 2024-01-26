@@ -44,6 +44,14 @@ main {
     width: 25px;
     cursor: pointer;
 }
+.card--favorite-button {
+    border: none;
+    background: transparent;
+}
+.card--favorite-button:active {
+    transform: none;
+    box-shadow: none;
+}
 
 .card--contact {
     font-size: 0.75rem;
